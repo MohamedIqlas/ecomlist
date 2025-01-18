@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1200,
+      "image": "/images/laptop.png",
+      "category": "electronics"
+    },
+    {
+      "id": 2,
+      "name": "Mobile",
+      "price": 900,
+      "image": "/images/mobile.png",
+      "category": "electronics"
+    },
+    {
+      "id": 3,
+      "name": "Headphones",
+      "price": 300,
+      "image": "/images/headphone.png",
+      "category": "electronics"
+    },
+    {
+      "id": 4,
+      "name": "Vaccum Cleaner",
+      "price": 500,
+      "image": "/images/vacuum.png",
+      "category": "homeappliance"
+    },
+    {
+      "id": 5,
+      "name": "Air Conditioner",
+      "price": 900,
+      "image": "/images/airco.png",
+      "category": "homeappliance"
+    },
+    {
+      "id": 6,
+      "name": "Refrigerator",
+      "price": 1500,
+      "image": "/images/refrige.png",
+      "category": "homeappliance"
+    },
+    {
+        "id": 7,
+        "name": "Shoes",
+        "price": 100,
+        "image": "/images/shoes.png",
+        "category": "fashion"
+    },
+    {
+        "id": 8,
+        "name": "Jacket",
+        "price": 200,
+        "image": "/images/jacket.png",
+        "category": "fashion"
+    },
+    {
+      "id": 9,
+      "name": "T-Shirt",
+      "price": 150,
+      "image": "/images/tshirt.png",
+      "category": "fashion"
+    },
+    {
+      "id": 10,
+      "name": "Puzzles",
+      "price": 50,
+      "image": "/images/puzzle.jpeg",
+      "category": "toys&games"
+    },
+    {
+      "id": 11,
+      "name": "Chess",
+      "price": 60,
+      "image": "/images/chess.jpeg",
+      "category": "toys&games"
+    },
+    {
+      "id": 12,
+      "name": "Building Blocks",
+      "price": 70,
+      "image": "/images/buildingblocks.jpeg",
+      "category": "toys&games"
+    }
+]
