@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce List Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>E-commerce Store</h1>
+  </header>
+
+  <div class="filter-bar">
+    <select id="category-filter" aria-label="Filter by Category">
+      <option value="">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="fashion">Fashion</option>
+      <option value="homeappliance">Home Appliances</option>
+      <option value="toys&games">Toys & Games</option>
+
+      </option>
+    </select>
+    <select id="price-sort" aria-label="Sort by Price">
+      <option value="">Sort By</option>
+      <option value="low-to-high">Price: Low to High</option>
+      <option value="high-to-low">Price: High to Low</option>
+    </select>
+  </div>
+
+  <!-- Product -->
+  <div class="product-grid" id="product-grid">
+   
+  </div>
+
+  <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to Top">↑</button>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <!-- Loading Spinner -->
+  <div id="loader" class="loader">Loading...</div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
